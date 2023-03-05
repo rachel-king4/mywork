@@ -35,7 +35,7 @@ def read_modules():
 def display_modules(modules):
     print("\tName       \tGrade")
     for module in modules:
-        print("\t{}     \t {}".format(module["Name"], module["Grade"]))
+        print(f"\t{module['Name']}     \t {module['Grade']}")
 
 
 def do_view(students):
