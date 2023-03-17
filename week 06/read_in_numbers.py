@@ -1,5 +1,5 @@
 # read in two numbers and multiply them
-# Author: Racehl King
+# Author: Rachel King
 
 def read_num(message = "Enter a number: "):
     num = False
